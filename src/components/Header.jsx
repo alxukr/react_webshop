@@ -2,10 +2,10 @@ function Header() {
     return (
         <nav className='purple darken-3'>
             <div className='nav-wrapper'>
-                    React Shop
+                <b className="brand-logo center">WEB Shop</b>
                 <ul id='nav-mobile' className='right hide-on-med-and-down'>
                     <li>
-                        Repo
+
                     </li>
                 </ul>
             </div>
