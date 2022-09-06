@@ -5,6 +5,7 @@ body {
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #23272a;
 }
 
 code {
@@ -44,6 +45,7 @@ nav {
     z-index: 5;
     padding: 1rem;
     border-radius: 10px;
+    border: #7f48c4 2px solid;
 }
 
 @media (min-width: 767px) {
@@ -60,7 +62,7 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: antiquewhite;
+    background-color: #000000;
     width: 50rem;
     max-width: 95%;
     box-shadow: 5px 5px 5px 5px #23272a;
@@ -93,7 +95,7 @@ nav {
 .basket-quantity-change {
     cursor: pointer;
     vertical-align: middle;
-    color: #5179de;
+    color: #7a97e5;
 }
 
 .toast-container {
